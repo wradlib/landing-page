@@ -33,11 +33,11 @@ PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = PAGE_URL + 'index.html'
 PAGE_PATHS = ['pages']
 
-#TEMPLATE_PAGES = {
-#    'templates/videos.html': 'video/index.html',
-#    'templates/code.html': 'code/index.html',
-#    'templates/themes.html': 'themes/index.html',
-#}
+TEMPLATE_PAGES = {
+    'templates/404.html': '404.html',
+    #'templates/code.html': 'code/index.html',
+    #'templates/themes.html': 'themes/index.html',
+}
 
 DIRECT_TEMPLATES = [
     'index', 'tags', 'categories', 'authors', 'archives', 'search']
