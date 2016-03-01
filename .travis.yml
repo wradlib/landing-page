@@ -2,6 +2,10 @@ branches:
   only:
   - master
 language: python
+addons:
+    apt:
+        packages:
+            - optipng
 python:
 - 2.7
 install:
