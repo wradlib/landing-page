@@ -11,8 +11,5 @@ output
 # Translations
 *.mo
 
-# private stuff
-Makefile
-
 # Huge binary content
 content/documents/*
