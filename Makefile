@@ -79,6 +79,6 @@ publish:
 
 github: publish
 	ghp-import -m "Generate Pelican site" -b $(REPO_TEMP_BRANCH) $(OUTPUTDIR)
-	git push -fq https://${GH_TOKEN}@github.com/wradlib/wradlib.github.io.git $(REPO_TEMP_BRANCH):$(GITHUB_PAGES_BRANCH) > /dev/null
+	@git push -fq https://${GH_TOKEN}@github.com/wradlib/wradlib.github.io.git $(REPO_TEMP_BRANCH):$(GITHUB_PAGES_BRANCH) > /dev/null
 
 .PHONY: html help clean regenerate serve serve-global devserver publish github
