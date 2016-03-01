@@ -14,8 +14,6 @@ LOCALE = 'C'
 MD_EXTENSIONS = [
     'codehilite',
     'extra',
-    #'mdx_video',
-    #'mdx_titlecase',
 ]
 TYPOGRIFY = True
 
@@ -73,7 +71,6 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# http://kevin.deldycke.com/tag/openerp/feed/
 TAG_FEED_RSS = 'tag/%s/feed/index.html'
 TAG_FEED_ATOM = 'tag/%s/feed/atom/index.html'
 
@@ -83,7 +80,7 @@ CATEGORY_FEED_ATOM = 'category/%s/feed/atom/index.html'
 
 FEED_MAX_ITEMS = 5
 USE_FOLDER_AS_CATEGORY = False
-DEFAULT_CATEGORY = 'English'
+DEFAULT_CATEGORY = 'wradlib'
 DEFAULT_DATE_FORMAT = '%b. %d, %Y'
 REVERSE_ARCHIVE_ORDER = True
 DISPLAY_PAGES_ON_MENU = False
@@ -123,7 +120,6 @@ PLUGINS = [
 ### Plugin-specific settings
 
 RELATED_POSTS_MAX = 3
-
 
 # TODO: align default SITEMAP config to
 # http://wordpress.org/extend/plugins/google-sitemap-generator/stats/
@@ -171,7 +167,7 @@ LEFT_SIDEBAR = """
     <!--</div>-->
     """
 
-#ARTICLE_EDIT_LINK = 'https://github.com/wradlib/wradlib.github.io/edit/master/content/posts/%(slug)s.md'
+ARTICLE_EDIT_LINK = 'https://github.com/wradlib/landing-page/edit/master/content/posts/%(slug)s.md'
 
 # Blogroll
 LINKS_WIDGET_NAME = "Resources"
@@ -184,7 +180,7 @@ SOCIAL_WIDGET_NAME = "Contact"
 SOCIAL = (('wradlib', 'https://github.com/wradlib'),)
 
 #COPYRIGHT = """&copy; 2011-2016 wradlib developers"""
-DISCLAIMER = ''
+DISCLAIMER = "All opinions expressed in this site are own personal opinions of the respective wradlib developers and are not endorsed by, nor do they represent the opinions of their previous, current and future employers or any of its affiliates, partners or customers."
 
 
 # Uncomment following line if you want document-relative URLs when developing
