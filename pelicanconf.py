@@ -100,9 +100,7 @@ STATIC_PATHS = [
 
 EXTRA_PATH_METADATA = {
     'extra/favicon.png': {'path': 'favicon.png'},
-    'extra/robots.txt': {'path': 'robots.txt'},
-    'extra/htaccess': {'path': '.htaccess'},
-    'extra/htaccess-static': {'path': 'documents/.htaccess'},
+    'extra/CNAME': {'path': 'CNAME'},
 }
 
 PLUGIN_PATHS = ['plugins-core']
