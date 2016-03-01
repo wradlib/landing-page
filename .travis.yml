@@ -22,5 +22,5 @@ notifications:
 
 before_install:
   - git submodule update --init --recursive
-after_success: - make github 
+after_success: make github 
 
