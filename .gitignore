@@ -1,0 +1,18 @@
+# Local backups
+*~
+
+# Python
+*.py[cod]
+
+# Pelican
+*.pid
+output
+
+# Translations
+*.mo
+
+# private stuff
+Makefile
+
+# Huge binary content
+content/documents/*
