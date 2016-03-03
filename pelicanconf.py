@@ -176,7 +176,7 @@ LINKS = (('Repository', 'https://github.com/wradlib/wradlib'),
 
 # Social widget
 SOCIAL_WIDGET_NAME = "Contact"
-SOCIAL = (('wradlib', 'wradlib@wradlib.org'),
+SOCIAL = (('wradlib@wradlib.org', 'mailto:wradlib@wradlib.org'),
 	  ('wradlib', 'https://github.com/wradlib'),)
 
 #COPYRIGHT = """&copy; 2011-2016 wradlib developers"""
