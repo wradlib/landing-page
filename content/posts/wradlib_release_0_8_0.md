@@ -1,5 +1,5 @@
 Title: Release 0.8.0
-Date: 2016-03-10 14:00
+Date: 2016-03-10 13:00
 Category: news
 Authors: wradlib
 Tags: releases, github, python2, python3
