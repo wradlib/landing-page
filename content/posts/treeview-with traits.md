@@ -7,12 +7,12 @@ Tags: rainbow5, treeview, python
 
 Since we are continuously receiving inquiries regarding the work with Rainbow5(TM) radar data, I will present here a nice way of visualizing the dictionary representation of an arbitrary Rainbow5 file.
 
-This code snippet makes use of the python packages traits and traisui.
+This code snippet makes use of the python packages traits and traitsui.
 
 Installing traits is as easy as:
 
-:::bash
-$ pip install traitsui
+    :::bash
+    $ pip install traitsui
 
 By adapting this gist a treeview representation of the loaded dictionary is given in a simple qt-gui:
 
