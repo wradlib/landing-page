@@ -154,7 +154,7 @@ SITESUBTITLE = "An Open Source Library for Weather Radar Data Processing"
 
 MENUITEMS = (
     ('Home', '/'),
-    ('Documentation', '/docs/'),
+    ('Documentation', '/wradlib-docs/'),
     ('Community', '/community/'),
     ('About', '/about/'),
 )
