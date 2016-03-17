@@ -5,31 +5,42 @@ Authors: wradlib
 Tags: conda, windows, osx, linux, python
 ---
 
-With the help of the outstanding community effort named [conda-forge](https://conda-forge.github.io/) wradlib can now be installed within the major OSs _**linux**_, _**windows**_ and _**osx**_.
+With the help of an outstanding community effort named [conda-forge](https://conda-forge.github.io/),
+wradlib can now be more conveniently installed on _**linux**_, _**windows**_ and _**osx**_.
 
-Until now, installing wradlib and its dependencies can sometimes be a real mess, especially on windows. But also in linux dependency issues are well known.
+Until now, installing wradlib and its dependencies could be tricky, with each OS having its own issues. On Windows, we so far recommended
+to satisfy all depencies via [Python(x,y)](https://python-xy.github.io/). This was convenient; however, it limited users to Python 2.7,
+and, more importantly, to 32-bit Python. This was a serious drawback particularly for memory-intensive applications.
 
-Using the so-called [conda-forge/wradlib-feedstock](https://github.com/conda-forge/wradlib-feedstock) installable wradlib packages for each of the three OS (also accounting for different python and numpy versions) are generated. For windows also 32bit-packages are available. All built packages are tested and uploaded to the [conda-forge channel](https://anaconda.org/conda-forge/wradlib).
+With this post, we present a new installation approach that is harmonised across platforms. Using
+[conda-forge/wradlib-feedstock](https://github.com/conda-forge/wradlib-feedstock), we provide installable wradlib packages
+for all major OS (accounting for different python and numpy versions, and offering 32-bit builts for Windows, if desired).
+All builts are tested and uploaded to the [conda-forge channel](https://anaconda.org/conda-forge/wradlib).
 
-The default-conda channel provides many wradlib dependencies out of the box, but not all. Hence, we also contributed to the [conda-forge/gdal-feedstock](https://github.com/conda-forge/gdal-feedstock) making it the first feedstock serving two different package versions (gdal 1.11.4 and 2.0.2).
+The default-conda channel provides many wradlib dependencies out of the box, but not all.
+Hence, we also contributed to the [conda-forge/gdal-feedstock](https://github.com/conda-forge/gdal-feedstock)
+making it the first feedstock serving two different package versions (gdal 1.11.4 and 2.0.2).
 
-With these prerequisites wradlib can be **easy** installed using the [conda package manager](http://conda.pydata.org/docs/intro.html).
+As a result, wradlib can now be conveniently installed using the [conda package manager](http://conda.pydata.org/docs/intro.html).
+Windows users should be aware, though, that this approach is **not** compatible with Python(x,y). So you need to make a decision.
 
-1. install the [Anaconda environment of your choice](https://www.continuum.io/downloads)
+So this is the basic walk through:
 
-2. clone the root environment or create one from scratch
+1. Install the [Anaconda environment of your choice](https://www.continuum.io/downloads)
+
+2. Clone the root environment or create one from scratch
 
         :::bash
         $ conda create --name wradlib --clone root
         or
         $ conda create --name wradlib python=2.7
 
-3. add the conda-forge channel
+3. Add the conda-forge channel
 
         :::bash
         $ conda config --add channels conda-forge
 
-4. activate wradlib environment
+4. Activate wradlib environment
 
     * Linux
 
@@ -41,12 +52,12 @@ With these prerequisites wradlib can be **easy** installed using the [conda pack
             :::bash
             > activate wradlib
 
-5. install wradlib (and dependencies)
+5. Install wradlib (and dependencies)
 
         :::bash
         (wradlib) $ conda install wradlib
 
-6. set GDAL_DATA environment variable (needed for georeferencing)
+6. Set GDAL_DATA environment variable (needed for georeferencing)
 
     * Linux/OSX bash
 
@@ -58,14 +69,16 @@ With these prerequisites wradlib can be **easy** installed using the [conda pack
             :::bash
             [wradlib] > setx GDAL_DATA C:\path\to\anaconda\envs\wradlib\Library\share\gdal
 
-7. optional dependencies can be installed OS independent with `pip`
+7. Optional dependencies can be installed OS independent with `pip`
 
         :::bash
         (wradlib) $ pip install xmltodict
 
 * * *
 
-With this on all three OS very straightforward procedure, with the excellent [Anaconda](https://www.continuum.io/why-anaconda) from Continuum(R) and the sustainable conda-forge community effort wradlib usability reaches new heights.
+We hope that this new approach will make the installation of wradlib more convenient, and, as a result, enhance its usability
+on all major platforms - thanks to [Anaconda](https://www.continuum.io/why-anaconda) from Continuum(R) and the conda-forge
+community effort.
 
 
 
