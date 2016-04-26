@@ -10,7 +10,7 @@ Therefore, we decided to harmonise online tutorials and recipes together with th
 
 As a result, **wradlib users** will be able to walk through the examples interactively by using [jupyter](http://jupyter.org/) together with [IPython](https://ipython.org/). Interactively means that users can manipulate code and parameters on the fly and immediately evaluate the result. This is perfect for courses, lectures or tutorials. It will help users to better understand wradlib (as compared to just executing a script).
 
-Still, for user who just want to run examples as plain Python scripts, we will also include these in the source distribution. Finally, all notebooks will be rendered for the online documentation.
+Still, for users who just want to run examples as plain Python scripts, we will also include these in the source distribution. Finally, all notebooks will be rendered for the online documentation.
 
 For getting an idea about jupyter notebooks within wradlib have a look at these three (rendered) notebooks:
 
