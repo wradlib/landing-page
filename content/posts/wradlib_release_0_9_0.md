@@ -7,7 +7,7 @@ Tags: releases, github, python2, python3
 
 With this post, we announce the release of wradlib 0.9.0. This release finalizes our transition 
 from example Python scripts to jupyter notebooks (as already announced in a 
-[previous post](introducing-wradlib-jupyter-notebooks.md). This way, 
+[previous post](http://wradlib.org/2016/04/introducing-wradlib-jupyter-notebooks/) ). As a result, 
 the documentation pages have become more consistent, and the handling of examples and tutorials 
 more convenient and interactive. We hope you agree!
 
