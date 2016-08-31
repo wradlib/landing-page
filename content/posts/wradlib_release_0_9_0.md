@@ -5,16 +5,17 @@ Authors: wradlib
 Tags: releases, github, python2, python3
 ---
 
-With this post, we announce the release of wradlib 0.9.0. With this release, 
-we finalized our transition from example Python scripts to jupyter notebooks (as already announced in a 
+With this post, we announce the release of wradlib 0.9.0. This release finalizes our transition 
+from example Python scripts to jupyter notebooks (as already announced in a 
 [previous post](introducing-wradlib-jupyter-notebooks.md). This way, 
 the documentation pages have become more consistent, and the handling of examples and tutorials 
 more convenient and interactive. We hope you agree!
 
 As a consequence, the previous doc sections "Tutorials" and "Recipes" have been replaced by one single 
-section "Tutorials and Examples". The pages in that section were automatically built from jupyter 
-(IPython) notebooks. These notebooks are distributed with the new release, and you can use them to
-interactively browse through our tutorials and examples. You can always download the latest notebooks 
+section [Tutorials and Examples](http://wradlib.org/wradlib-docs/latest/notebooks.html). 
+The pages in that section were automatically built from jupyter 
+(IPython) notebooks. These notebooks are distributed with the [new release](https://pypi.python.org/pypi/wradlib), 
+and you can use them to interactively browse through our tutorials and examples. You can always download the latest notebooks 
 from the [wradlib repository](https://github.com/wradlib/wradlib/tree/master/notebooks).
 
 For those who do not know, yet, how to handle jupyter notebooks, we prepared a 
@@ -23,7 +24,7 @@ brief (and certainly incomplete) [intro to Python](http://wradlib.org/wradlib-do
 for those who would like to have some entry point to that language. This intro will certainly further be developed 
 in the future.
 
-You do not want to use notebooks? No problem - straight Python scripts are distributed alongside the notebooks with each new release.
+In case you don't want to use notebooks: straight Python scripts are distributed alongside the notebooks with [each new release > 0.9.0](https://pypi.python.org/pypi/wradlib).
 
 Please note another important change: we moved all the example data from the main
 [wradlib repository](https://github.com/wradlib/wradlib/) to a new [data repository](https://github.com/wradlib/wradlib-data).
@@ -42,11 +43,11 @@ Along with wradlib 0.9.0, we also released a couple of minor, though hopefully u
 For more details on the new release, please visit our [release notes](http://wradlib.org/wradlib-docs/0.9.0/).
 
 Are you wondering how to update to the new wradlib version? If you installed wradlib with `conda install wradlib` 
-(in a virtual environment named `wradlibs_virt_env` on top of Anaconda), you just need to
+(in a virtual environment named e.g. `wradlib` on top of Anaconda), you just need to
 
 ```shell
 
-$ activate wradlibs_virt_env
+$ activate wradlib
 $ conda update wradlib
 
 ```
