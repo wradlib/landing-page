@@ -48,7 +48,7 @@ Are you wondering how to update to the new wradlib version? If you installed wra
 ```shell
 
 $ activate wradlib
-$ conda update wradlib
+$ conda update --all
 
 ```
 
