@@ -24,7 +24,7 @@ brief (and certainly incomplete) [intro to Python](http://wradlib.org/wradlib-do
 for those who would like to have some entry point to that language. This intro will certainly further be developed 
 in the future.
 
-In case you don't want to use notebooks: straight Python scripts are distributed alongside the notebooks with [each new release > 0.9.0](https://pypi.python.org/pypi/wradlib).
+In case you don't want to use notebooks: straight Python scripts are distributed alongside the notebooks with [each new release >= 0.9.0](https://pypi.python.org/pypi/wradlib).
 
 Please note another important change: we moved all the example data from the main
 [wradlib repository](https://github.com/wradlib/wradlib/) to a new [data repository](https://github.com/wradlib/wradlib-data).
