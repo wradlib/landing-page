@@ -62,7 +62,7 @@ $ conda install wradlib
 You can drop the first line if you already added the conda-forge channel.
 
 For more details, or if you do not use Anaconda or conda, see our
-[installation instruction](http://wradlib.org/wradlib-docs/latest/gettingstarted.html). 
+[installation instructions](http://wradlib.org/wradlib-docs/latest/gettingstarted.html). 
 
 In case you lost track of your Anaconda environments, you can use
 
