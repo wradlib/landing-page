@@ -32,7 +32,7 @@ In case you don't want to use notebooks: straight Python scripts are distributed
 
 We moved all the example data from the main
 [wradlib repository](https://github.com/wradlib/wradlib/) to a new [data repository](https://github.com/wradlib/wradlib-data).
-This is important, as you need to download the example data archive yourself, and extract it to any directory on your computer. Then you need to create an environment variable pointing to that directory. After that, the example notebooks the data will automagically pull the required example data from that directory. See [here](http://wradlib.org/wradlib-docs/latest/jupyter.html#how-can-i-get-the-example-data) for more detailed guidance on the process.   
+In order to run the notebooks on your computer, you need to download the example data archive yourself, and extract it to any directory on your computer. Then you need to create an environment variable pointing to that directory. After that, the example notebooks will automagically pull the required example data from that directory. See [here](http://wradlib.org/wradlib-docs/latest/jupyter.html#how-can-i-get-the-example-data) for more detailed guidance on the process.   
 
 ## Further changes in wradlib 0.9.0 
 
