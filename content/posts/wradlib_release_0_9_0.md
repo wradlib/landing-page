@@ -11,7 +11,7 @@ from example Python scripts to jupyter notebooks (as already announced in a
 the documentation pages have become more consistent, and the handling of examples and tutorials 
 more convenient and interactive. We hope you'll agree!
 
-## Interactive examples with jupyter notebooks 
+### Interactive examples with jupyter notebooks 
 
 As a consequence, the previous doc sections "Tutorials" and "Recipes" have been replaced by one single 
 section [Tutorials and Examples](http://wradlib.org/wradlib-docs/latest/notebooks.html). 
@@ -28,13 +28,13 @@ in the future.
 
 In case you don't want to use notebooks: straight Python scripts are distributed alongside the notebooks with [each new release >= 0.9.0](https://pypi.python.org/pypi/wradlib).
 
-## Get the example data from the new wradlib data repository 
+### Get the example data from the new wradlib data repository 
 
 We moved all the example data from the main
 [wradlib repository](https://github.com/wradlib/wradlib/) to a new [data repository](https://github.com/wradlib/wradlib-data).
 In order to run the notebooks on your computer, you need to download the example data archive yourself, and extract it to any directory on your computer. Then you need to create an environment variable pointing to that directory. After that, the example notebooks will automagically pull the required example data from that directory. See [here](http://wradlib.org/wradlib-docs/latest/jupyter.html#how-can-i-get-the-example-data) for more detailed guidance on the process.   
 
-## Further changes in wradlib 0.9.0 
+### Further changes in wradlib 0.9.0 
 
 Along with wradlib 0.9.0, we also released a couple of minor, though hopefully useful new features and fixes, e.g.:
 
@@ -46,7 +46,7 @@ Along with wradlib 0.9.0, we also released a couple of minor, though hopefully u
 
 For more details on the new release, please visit our [release notes](http://wradlib.org/wradlib-docs/0.9.0/).
 
-## Updating to wradlib 0.9.0
+### Updating to wradlib 0.9.0
 
 Do you want to safely check out the new version and still keep the old one? Then you can install wraldib 0.9.0 into a new conda environment, e.g. like this: 
 
@@ -80,6 +80,6 @@ $ conda list --name wradlib090
 
 ```
 
-## For developers
+### For developers
 
 Untagged MICRO-releases (0.9.1 and so on) are now released on [testpypi](https://testpypi.python.org/pypi/wradlib/). In the future, we hope to adopt this for [conda-forge](https://anaconda.org/conda-forge/wradlib), too. This might be interesting for users, too, for early checking of bug fixes (in case they do not want to use the bleeding edge code). 
