@@ -23,7 +23,7 @@ from the [wradlib repository](https://github.com/wradlib/wradlib/tree/master/not
 For those who do not know, yet, how to handle jupyter notebooks, we prepared a 
 [quick tutorial](http://wradlib.org/wradlib-docs/latest/jupyter.html). We also added a 
 brief (and certainly incomplete) [intro to Python](http://wradlib.org/wradlib-docs/latest/notebooks/learnpython.html) 
-for those who would like to have some entry point to that language. This intro will certainly further be developed 
+for those who would like to have some entry point to that language. This intro will certainly be further developed 
 in the future.
 
 In case you don't want to use notebooks: straight Python scripts are distributed alongside the notebooks with [each new release >= 0.9.0](https://pypi.python.org/pypi/wradlib).
