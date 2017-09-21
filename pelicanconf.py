@@ -4,17 +4,27 @@ from __future__ import unicode_literals
 
 AUTHOR = 'wradlib'
 SITENAME = 'wradlib'
-SITEURL = 'https://wradlib.github.io'
+SITEURL = ''#https://wradlib.github.io'
 
 PATH = 'content'
 
 TIMEZONE = 'Europe/Berlin'
 DEFAULT_LANG = 'en'
 LOCALE = 'C'
-MD_EXTENSIONS = [
-    'codehilite',
-    'extra',
-]
+#MD_EXTENSIONS = [
+#    'codehilite',
+#    'extra',
+#]
+
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        #'markdown.extensions.headerid': {},
+        'markdown.extensions.extra': {},
+    },
+    'output_format': 'html5',
+}
+
 TYPOGRIFY = True
 
 # Do not publish articles set in the future
@@ -84,6 +94,7 @@ DEFAULT_CATEGORY = 'wradlib'
 DEFAULT_DATE_FORMAT = '%b. %d, %Y'
 REVERSE_ARCHIVE_ORDER = True
 DISPLAY_PAGES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = False
 
 # Pagination
 DEFAULT_ORPHANS = 2
@@ -96,6 +107,7 @@ STATIC_PATHS = [
     'uploads',
     'documents',
     'extra',
+    'downloads',
 ]
 
 EXTRA_PATH_METADATA = {
@@ -113,7 +125,10 @@ PLUGINS = [
     'tipue_search',
     'neighbors',
     'sitemap',
+    'gallery',
 ]
+
+GALLERY_PATH = 'downloads'
 
 
 ### Plugin-specific settings
@@ -156,6 +171,7 @@ MENUITEMS = (
     ('Home', '/'),
     ('Documentation', '/wradlib-docs/'),
     ('Community', '/community/'),
+    ('Downloads', '/downloads/'),
     ('About', '/about/'),
 )
 

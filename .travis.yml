@@ -13,7 +13,7 @@ env:
 python:
 - 2.7
 install:
-- pip install -r requirements.txt --use-mirrors
+- pip install -r requirements.txt
 script:
 - make html
 notifications:
@@ -23,5 +23,6 @@ notifications:
 
 before_install:
   - git submodule update --init --recursive
+  - mv content/templates/gallery.html plumage/templates/.
 after_success: make github 
 
