@@ -23,5 +23,6 @@ notifications:
 
 before_install:
   - git submodule update --init --recursive
+  - mv content/templates/gallery.html /plumage/templates/.
 after_success: make github 
 
