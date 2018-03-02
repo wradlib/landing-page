@@ -6,7 +6,7 @@
 
 {% block content %}
 
-    {% for album, images in page.gallery.iteritems() %}
+    {% for album, images in page.gallery.items() %}
     <h2><a name="{{ album }}">{{ album }}</a></h2>
     <ul>
         {% for image in images %}
