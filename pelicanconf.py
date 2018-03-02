@@ -169,7 +169,7 @@ SITESUBTITLE = "An Open Source Library for Weather Radar Data Processing"
 
 MENUITEMS = (
     ('Home', '/'),
-    ('Documentation', '/wradlib-docs/'),
+    ('Documentation', 'http://docs.wradlib.org'),
     ('Community', '/community/'),
     ('Downloads', '/downloads/'),
     ('About', '/about/'),
@@ -187,14 +187,14 @@ ARTICLE_EDIT_LINK = 'https://github.com/wradlib/landing-page/edit/master/content
 # Blogroll
 LINKS_WIDGET_NAME = "Resources"
 LINKS = (('Repository', 'https://github.com/wradlib/wradlib'),
-	 ('Documentation', 'https://wradlib.github.io/wradlib-docs'),
-	 ('wradlib-user group', 'https://groups.google.com/forum/?fromgroups=#!forum/wradlib-users'),)
+         ('Documentation', 'https://wradlib.github.io/wradlib-docs'),
+         ('wradlib-user group', 'https://groups.google.com/forum/?fromgroups=#!forum/wradlib-users'),)
 
 # Social widget
 SOCIAL_WIDGET_NAME = "Contact"
 SOCIAL = (('wradlib', 'mailto:wradlib@wradlib.org'),
-	  ('Github', 'https://github.com/wradlib'),
-	  ('Facebook', 'https://www.facebook.com/wradlib/'),)
+          ('Github', 'https://github.com/wradlib'),
+          ('Facebook', 'https://www.facebook.com/wradlib/'),)
 
 #COPYRIGHT = """&copy; 2011-2016 wradlib developers"""
 DISCLAIMER = "All opinions expressed in this site are own personal opinions of the respective wradlib developers and are not endorsed by, nor do they represent the opinions of their previous, current and future employers or any of its affiliates, partners or customers."
