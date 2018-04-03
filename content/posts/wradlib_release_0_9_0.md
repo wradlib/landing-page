@@ -14,15 +14,15 @@ more convenient and interactive. We hope you'll agree!
 ### Interactive examples with jupyter notebooks 
 
 As a consequence, the previous doc sections "Tutorials" and "Recipes" have been replaced by one single 
-section [Tutorials and Examples](http://wradlib.org/wradlib-docs/latest/notebooks.html). 
+section [Tutorials and Examples](http://docs.wradlib.org/en/latest/notebooks.html).
 The pages in that section were automatically built from jupyter 
 (IPython) notebooks. These notebooks are distributed with the [new release](https://pypi.python.org/pypi/wradlib), 
 and you can use them to interactively browse through our tutorials and examples. You can always download the latest notebooks 
 from the [wradlib repository](https://github.com/wradlib/wradlib/tree/master/notebooks).
 
 For those who do not know, yet, how to handle jupyter notebooks, we prepared a 
-[quick tutorial](http://wradlib.org/wradlib-docs/latest/jupyter.html). We also added a 
-brief (and certainly incomplete) [intro to Python](http://wradlib.org/wradlib-docs/latest/notebooks/learnpython.html) 
+[quick tutorial](http://docs.wradlib.org/en/latest/jupyter.html). We also added a
+brief (and certainly incomplete) [intro to Python](http://docs.wradlib.org/en/latest/notebooks/learnpython.html)
 for those who would like to have some entry point to that language. This intro will certainly be further developed 
 in the future.
 
@@ -32,7 +32,7 @@ In case you don't want to use notebooks: straight Python scripts are distributed
 
 We moved all the example data from the main
 [wradlib repository](https://github.com/wradlib/wradlib/) to a new [data repository](https://github.com/wradlib/wradlib-data).
-In order to run the notebooks on your computer, you need to download the example data archive yourself, and extract it to any directory on your computer. Then you need to create an environment variable pointing to that directory. After that, the example notebooks will automagically pull the required example data from that directory. See [here](http://wradlib.org/wradlib-docs/latest/jupyter.html#how-can-i-get-the-example-data) for more detailed guidance on the process.   
+In order to run the notebooks on your computer, you need to download the example data archive yourself, and extract it to any directory on your computer. Then you need to create an environment variable pointing to that directory. After that, the example notebooks will automagically pull the required example data from that directory. See [here](http://docs.wradlib.org/en/latest/jupyter.html#how-can-i-get-the-example-data) for more detailed guidance on the process.
 
 ### Further changes in wradlib 0.9.0 
 
@@ -62,7 +62,7 @@ $ conda install wradlib
 You can drop the first line if you already added the conda-forge channel.
 
 For more details, or if you do not use Anaconda or conda, see our
-[installation instructions](http://wradlib.org/wradlib-docs/latest/gettingstarted.html). 
+[installation instructions](http://docs.wradlib.org/en/latest/gettingstarted.html).
 
 In case you lost track of your Anaconda environments, you can use
 

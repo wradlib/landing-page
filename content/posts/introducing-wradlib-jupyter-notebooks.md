@@ -14,9 +14,9 @@ Still, for users who just want to run examples as plain Python scripts, we will 
 
 For getting an idea about jupyter notebooks within wradlib have a look at these three (rendered) notebooks:
 
-- [RADOLAN - Radar Products from German Weather Service](http://wradlib.org/wradlib-docs/latest/notebooks/radolan.html),
-- [Beam Blockage Calculation using DEM](http://wradlib.org/wradlib-docs/latest/notebooks/beamblockage/wradlib_beamblock.html) and
-- [Plot Additional Data](http://wradlib.org/wradlib-docs/latest/notebooks/visualisation/wradlib_overlay.html)
+- [RADOLAN - Radar Products from German Weather Service](http://docs.wradlib.org/en/latest/notebooks/radolan.html),
+- [Beam Blockage Calculation using DEM](http://docs.wradlib.org/en/latest/notebooks/beamblockage/wradlib_beamblock.html) and
+- [Plot Additional Data](http://docs.wradlib.org/en/latest/notebooks/visualisation/wradlib_overlay.html)
 
 We are currently in the process of transition. Successively, we will migrate all tutorials and examples.
 
