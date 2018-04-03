@@ -26,14 +26,14 @@ Georeferencing has become more precise and transparent, making more use of gdal'
 
 # Revise repository structure and CI workflows
 In order to make developing and releasing more efficient, we fundamentally revised the repository structure: 
-- the actual wradlib code remains under http://github.com/wradlib/wradlib;
-- the notebooks have been moved to https://github.com/wradlib/wradlib-notebooks;
+- the actual wradlib code remains under [http://github.com/wradlib/wradlib](http://github.com/wradlib/wradlib)
+- the notebooks have been moved to [https://github.com/wradlib/wradlib-notebooks](https://github.com/wradlib/wradlib-notebooks)
 
 # Documentation pages
-The doc pages will mostly look the same, but they are now available under http://docs.wradlib.org.
+The doc pages will mostly look the same, but they are now available under [http://docs.wradlib.org](http://docs.wradlib.org).
 
 # For all developers
-The pre-1.0 repository state is kept under https://github.com/wradlib/wradlib-old/ (not recommended). If you want to keep up with the latest developments, just stick with https://github.com/wradlib/wradlib. There's a small catch, though: if you want to base your development on the new wradlib/master, you need to merge it with brute force. On the local version of your current fork, you need to
+The pre-1.0 repository state is kept under [https://github.com/wradlib/wradlib-old](https://github.com/wradlib/wradlib-old) (not recommended). If you want to keep up with the latest developments, just stick with https://github.com/wradlib/wradlib. There's a small catch, though: if you want to base your development on the new wradlib/master, you need to merge it with brute force. On the local version of your current fork, you need to
 
 ```
 $ git remote add upstream https://github.com/wradlib/wradlib.git
@@ -41,4 +41,4 @@ $ git checkout master
 $ git fetch upstream
 $ git reset --hard upstream/master
 $ git push origin master --force
-``` 
+```
