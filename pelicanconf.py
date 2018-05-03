@@ -184,6 +184,8 @@ LEFT_SIDEBAR = """
 
 ARTICLE_EDIT_LINK = 'https://github.com/wradlib/landing-page/edit/master/content/posts/%(slug)s.md'
 
+FAVICON_LINKS = False
+
 # Blogroll
 LINKS_WIDGET_NAME = "Resources"
 LINKS = (('Repository', 'https://github.com/wradlib/wradlib'),
