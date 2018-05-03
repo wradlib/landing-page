@@ -11,4 +11,4 @@ which is develeoped by [Kevin Deldycke](http://kevin.deldycke.com/)
 License
 -------
 
-The content of this repository is copyrighted (c) 2016 wradlib developers
+The content of this repository is copyrighted (c) 2016-2018 wradlib developers
