@@ -184,12 +184,10 @@ LEFT_SIDEBAR = """
 
 ARTICLE_EDIT_LINK = 'https://github.com/wradlib/landing-page/edit/master/content/posts/%(slug)s.md'
 
-FAVICON_LINKS = False
-
 # Blogroll
 LINKS_WIDGET_NAME = "Resources"
 LINKS = (('Repository', 'https://github.com/wradlib/wradlib'),
-         ('Documentation', 'http://docs.wradlib.org'),
+         ('Documentation', 'https://docs.wradlib.org'),
          ('wradlib-user group', 'https://groups.google.com/forum/?fromgroups=#!forum/wradlib-users'),)
 
 # Social widget
@@ -197,6 +195,8 @@ SOCIAL_WIDGET_NAME = "Contact"
 SOCIAL = (('wradlib', 'mailto:wradlib@wradlib.org'),
           ('Github', 'https://github.com/wradlib'),
           ('Facebook', 'https://www.facebook.com/wradlib/'),)
+
+FAVICON_LINKS = False
 
 #COPYRIGHT = """&copy; 2011-2016 wradlib developers"""
 DISCLAIMER = "All opinions expressed in this site are own personal opinions of the respective wradlib developers and are not endorsed by, nor do they represent the opinions of their previous, current and future employers or any of its affiliates, partners or customers."
