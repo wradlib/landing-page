@@ -1,5 +1,5 @@
 Title: Release 1.2
-Date: 2018-10-31 16:00
+Date: 2018-10-31 08:00
 Category: news
 Authors: wradlib
 Tags: releases, github, python2, python3
