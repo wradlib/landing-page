@@ -27,7 +27,7 @@ Further the different netcdf/hdf groups are accessed via xarray opendataset and 
 
 For hdf5 data scaling/masking properties will be added to the datasets before decoding. For GAMIC compound data will be read via h5py.
 
-The data structure holds one ['root'] xarray dataset which corresponds to the Cf/Radial2 root-group and one or many ['sweep_X'] xarray datasets, holding the sweep data. Since for data handling xarray is utilized all xarray features can be exploited, like **lazy-loading**, **pandas-like indexing** on N-dimensional data and vectorized mathematical operations across multiple dimensions.
+The data structure holds one `root` xarray dataset which corresponds to the Cf/Radial2 root-group and one or many `sweep_X` xarray datasets, holding the sweep data. Since for data handling xarray is utilized all xarray features can be exploited, like **lazy-loading**, **pandas-like indexing** on N-dimensional data and vectorized mathematical operations across multiple dimensions.
 
 Using [cartopy](https://scitools.org.uk/cartopy/) and/or [dask](http://docs.dask.org/) the possibilities seem endless.
 
