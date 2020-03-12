@@ -1,5 +1,5 @@
 Title: Release 1.6
-Date: 2020-03-12 11:00
+Date: 2020-03-12 10:00
 Category: news
 Authors: wradlib
 Tags: releases, github, python3
