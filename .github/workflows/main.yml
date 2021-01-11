@@ -25,7 +25,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
         with:
-          token: ${{ secrets.WRADLIB_DOCS_API_TOKEN }}
+          token: ${{ secrets.WRADLIB_DOCS_BOT_API_TOKEN }}
           submodules: 'recursive'
       - name: Fix Templates
         run: |
@@ -42,4 +42,5 @@ jobs:
       - name: Make html
         run: make html
       - name: Publish to wradlib.github.io
+        if: github.event_name == 'push'
         run: make github     
