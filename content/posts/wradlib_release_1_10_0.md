@@ -1,5 +1,5 @@
-Title: Release 1.9
-Date: 2020-11-26 10:00
+Title: Release 1.10
+Date: 2021-06-01 13:00
 Category: news
 Authors: wradlib
 Tags: releases, github, python3
