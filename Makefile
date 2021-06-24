@@ -9,7 +9,7 @@ CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
 REPO_TEMP_BRANCH=static-content
-GITHUB_PAGES_BRANCH=master
+GITHUB_PAGES_BRANCH=main
 
 DEBUG ?= 0
 ifeq ($(DEBUG), 1)

@@ -18,7 +18,7 @@ section [Tutorials and Examples](http://docs.wradlib.org/en/latest/notebooks.htm
 The pages in that section were automatically built from jupyter 
 (IPython) notebooks. These notebooks are distributed with the [new release](https://pypi.python.org/pypi/wradlib), 
 and you can use them to interactively browse through our tutorials and examples. You can always download the latest notebooks 
-from the [wradlib repository](https://github.com/wradlib/wradlib/tree/master/notebooks).
+from the [wradlib repository](https://github.com/wradlib/wradlib/tree/main/notebooks).
 
 For those who do not know, yet, how to handle jupyter notebooks, we prepared a 
 [quick tutorial](http://docs.wradlib.org/en/latest/jupyter.html). We also added a

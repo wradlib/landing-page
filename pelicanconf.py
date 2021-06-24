@@ -182,7 +182,7 @@ LEFT_SIDEBAR = """
     <!--</div>-->
     """
 
-ARTICLE_EDIT_LINK = 'https://github.com/wradlib/landing-page/edit/master/content/posts/%(slug)s.md'
+ARTICLE_EDIT_LINK = 'https://github.com/wradlib/landing-page/edit/main/content/posts/%(slug)s.md'
 
 # Blogroll
 LINKS_WIDGET_NAME = "Resources"

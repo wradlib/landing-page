@@ -35,6 +35,6 @@ Now, these are the most important changes:
 
 We like to thank all our contributors and all community members who ask questions and provide feedback on the various channels. Your contributions are very much appreciated. 
 
-For a complete list of changes refer to the [wradlib repository](https://github.com/wradlib/wradlib/commits/master).
+For a complete list of changes refer to the [wradlib repository](https://github.com/wradlib/wradlib/commits/main).
 
 As all new enhancements and additions might introduce regressions please report any issues you experience.

@@ -36,8 +36,8 @@ This notebook will serve as both as test code and user example, and it will auto
 The new wradlib notebook workflow in more detail:
 
 - document code example or tutorial only once as jupyter notebook
-- convert notebooks for wradlib tests in CI ([convert_notebooks.sh](https://github.com/wradlib/wradlib/blob/master/scripts/convert_notebooks.sh))
-- render notebooks for wradlib docs in CI ([render_notebooks.sh](https://github.com/wradlib/wradlib/blob/master/scripts/render_notebooks.sh),
+- convert notebooks for wradlib tests in CI ([convert_notebooks.sh](https://github.com/wradlib/wradlib/blob/main/scripts/convert_notebooks.sh))
+- render notebooks for wradlib docs in CI ([render_notebooks.sh](https://github.com/wradlib/wradlib/blob/main/scripts/render_notebooks.sh),
   [nbsphinx](https://github.com/spatialaudio/nbsphinx))
 
 If you have ideas and suggestions about extending the tutorials, notebooks or recipe sections, take your chance and contact us.

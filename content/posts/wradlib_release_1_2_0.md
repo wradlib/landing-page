@@ -29,4 +29,4 @@ German weather service (DWD) introduced new products using new header tokens (`V
 - **Revised documentation structure and CI workflows**
 The documentation has been revised in terms of conformance and consistency, links were updated, typos fixed and CI workflow improved.
 
-For a complete list of changes refer to the [wradlib repository](https://github.com/wradlib/wradlib/commits/master).
+For a complete list of changes refer to the [wradlib repository](https://github.com/wradlib/wradlib/commits/main).

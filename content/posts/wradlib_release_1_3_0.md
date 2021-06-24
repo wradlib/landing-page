@@ -23,6 +23,6 @@ The plotting routines have been completely revised and build upon wradlib xarray
 - **Revised Documentation**
 The documentation structure has been reordered for better user experience.
 
-For a complete list of changes refer to the [wradlib repository](https://github.com/wradlib/wradlib/commits/master).
+For a complete list of changes refer to the [wradlib repository](https://github.com/wradlib/wradlib/commits/main).
 
 As all new enhancements and additions might introduce regressions please report any issues you experience. Bugfix releases will be rolled out shortly. We kept our commitment to semver to stay backwards compatible regarding current workflows. One thing though is abandoning Python 2.7 where we are in line with many major python packages (eg. matplotlib).
