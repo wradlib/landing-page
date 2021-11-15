@@ -31,8 +31,8 @@ Now, these are the most important changes:
 
 **New features**
 
-- add [IRIS/sigmet backend](https://docs.wradlib.org/en/latest/notebooks/fileio/wradlib_iris_backend.html) for reading radar data into xarray Datasets
-- add [Rainbow5 backend](https://docs.wradlib.org/en/latest/notebooks/fileio/wradlib_rainbow_backend.html) for reading radar data into xarray Datasets
+- add [IRIS/sigmet backend](https://docs.wradlib.org/en/1.13.0/notebooks/fileio/wradlib_iris_backend.html) for reading radar data into xarray Datasets
+- add [Rainbow5 backend](https://docs.wradlib.org/en/1.13.0/notebooks/fileio/wradlib_rainbow_backend.html) for reading radar data into xarray Datasets
 
 **Maintenance**
 
