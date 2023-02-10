@@ -39,7 +39,7 @@ line with the latest developments. There is a bit of work ahead to get all noteb
 The split of wradlib into three repos back in early 2016 was no easy decision. It helped a lot in gaining as much 
 as possible from the emerging [GitHub](https://github.com) cloud system. Now, as GitHub has tremendously advanced - huge
 thanks to GitHub for providing this all for free for us open source projects - it has come the time to get the 
-wradlib-docs](https://github.com/wradlib/wradlib-docs) back into the wradlib main repository. We can much more easily 
+[wradlib-docs](https://github.com/wradlib/wradlib-docs) back into the wradlib main repository. We can much more easily 
 keep everything together without any loose ends. This will most likely happen just after wradlib 1.19 release. In the 
 same time the docs will have a refresh as well. We will also see a new theme by then.
     
